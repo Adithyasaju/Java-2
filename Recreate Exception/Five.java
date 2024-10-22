@@ -5,3 +5,15 @@ class Five {                                                 //classCast Excepti
         System.out.println(str);
     }
 }
+
+class Test{
+    public static void main(String[] args) {
+        try {
+            Object obj=new Object();
+        String str=(String)obj;  
+            System.out.println(str);
+        } catch (Exception e) {
+           System.out.println(e.getMessage());
+        }
+    }
+}
