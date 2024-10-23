@@ -9,6 +9,11 @@ public class ArrayListFour {
         enames.add("Sona");
         enames.add("Priya");
         enames.add("Amith");
+        System.out.println(enames);
+        System.out.println(enames.get(0));
+        System.out.println(enames.get(1));
+        System.out.println(enames.get(2));
+        System.out.println(enames.get(3));
 
 
     }
